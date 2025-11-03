@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotel>
+	<!-- Error (1): Root element name is Hotel instead of Hotels -->
+	<Hotel id="hotel1">
+		<Name>Westin</Name>
+		<!-- Error (5): Two names provided for one of the hotels -->
+		<Name>Westin Error</Name>
+		<!-- Part of Error (5) -->
+		<Address>
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<!-- Error (4): An Address element has no closing tag. -->
+			<!-- Intentionally removed closing tag for Address to demonstrate Error (4) -->
+			<Hotel id="hotel2">
+				<!-- Error (2): A required attribute is missing. Supposed to have an id attribute -->
+				<Name>Hilton</Name>
+				<Address>
+					<Number>22</Number>
+					<Street>Main St</Street>
+					<City>Phoenix</City>
+					<State>AZ</State>
+					<Zip>85004</Zip>
+				</Address>
+				<!-- Error (3): A Phone element is missing on one of the hotels. Intentionally not included here -->
+				<Rating>4.5</Rating>
+			</Hotel>
+		</Hotel>
