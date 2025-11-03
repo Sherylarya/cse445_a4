@@ -1,0 +1,130 @@
+﻿<?xml version="1.0"?>
+<Hotels
+xmlns = "https://myfiles.asu.edu/myfiles/?d=www"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://sherylarya.github.io/cse445_a4/Hotels.xsd">
+	<Hotel id="hotel1" Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel id="hotel2">
+		<Name>Hilton</Name>
+		<Phone>602-955-3992</Phone>
+		<Phone>502-853-9000</Phone>
+		<Address NearstAirport="Sky Harbor International Airport">
+			<Number>45</Number>
+			<Street>Main St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85018</Zip>
+		</Address>
+	</Hotel>
+	<Hotel id="hotel3" Rating="3.8">
+		<Name>Marriott</Name>
+		<Phone>415-896-1600</Phone>
+		<Address NearstAirport="San Francisco International Airport">
+			<Number>55</Number>
+			<Street>4th St</Street>
+			<City>San Francisco</City>
+			<State>CA</State>
+			<Zip>94103</Zip>
+		</Address>
+	</Hotel>
+	<Hotel id="hotel4" Rating="4.5">
+		<Name>Ritz-Carlton</Name>
+		<Phone>212-308-9100</Phone>
+		<Phone>602-242-3433</Phone>
+		<Address NearstAirport="LaGuardia Airport">
+			<Number>10</Number>
+			<Street>Avenue of the Americas</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10019</Zip>
+		</Address>
+	</Hotel>
+	<Hotel id="hotel5" Rating="4.7">
+		<Name>Hotel</Name>
+		<Phone>310-472-1211</Phone>
+		<Address NearstAirport="Los Angeles International Airport">
+			<Number>424</Number>
+			<Street>South Beverly Dr</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90212</Zip>
+		</Address>
+	</Hotel>
+	<Hotel id="hotel6">
+		<Name>Bellagio</Name>
+		<Phone>702-693-7111</Phone>
+		<Address NearstAirport="McCarran International Airport">
+			<Number>3600</Number>
+			<Street>S Las Vegas Blvd</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89109</Zip>
+		</Address>
+	</Hotel>
+	<Hotel id="hotel7" Rating="4.6">
+		<Name>Plaza</Name>
+		<Phone>212-759-3000</Phone>
+		<Address NearstAirport="JFK Airport">
+			<Number>768</Number>
+			<Street>5th Ave</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10019</Zip>
+		</Address>
+	</Hotel>
+	<Hotel id="hotel8">
+		<Name>Shelborne</Name>
+		<Phone>305-531-1271</Phone>
+		<Address NearstAirport="Miami International Airport">
+			<Number>1801</Number>
+			<Street>Collins Ave</Street>
+			<City>Miami Beach</City>
+			<State>FL</State>
+			<Zip>33139</Zip>
+		</Address>
+	</Hotel>
+	<Hotel id="hotel9" Rating="3.9">
+		<Name>Drake</Name>
+		<Phone>312-787-2200</Phone>
+		<Address NearstAirport="O'Hare International Airport">
+			<Number>140</Number>
+			<Street>E Walton Pl</Street>
+			<City>Chicago</City>
+			<State>IL</State>
+			<Zip>60611</Zip>
+		</Address>
+	</Hotel>
+	<Hotel id="hotel10" Rating="4.3">
+		<Name>Broadmoor</Name>
+		<Phone>719-623-5112</Phone>
+		<Address NearstAirport="Colorado Springs Airport">
+			<Number>1</Number>
+			<Street>Lake Ave</Street>
+			<City>Colorado Springs</City>
+			<State>CO</State>
+			<Zip>80906</Zip>
+		</Address>
+	</Hotel>
+	<Hotel id="hotel11" Rating="4.1">
+		<Name>Zephyr</Name>
+		<Phone>415-617-6565</Phone>
+		<Address NearstAirport="San Francisco International Airport">
+			<Number>250</Number>
+			<Street>Beach</Street>
+			<City>San Francisco</City>
+			<State>CA</State>
+			<Zip>94133</Zip>
+		</Address>
+	</Hotel>
+</Hotels>
